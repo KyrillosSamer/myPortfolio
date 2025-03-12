@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/KyrillosSamer/myPortfolio.git/static/css/main.27e76d64.css",
+    "main.js": "/KyrillosSamer/myPortfolio.git/static/js/main.d8457e4a.js",
+    "static/js/453.0e915986.chunk.js": "/KyrillosSamer/myPortfolio.git/static/js/453.0e915986.chunk.js",
+    "static/media/food.png": "/KyrillosSamer/myPortfolio.git/static/media/food.8d0de2457d7fd268beba.png",
+    "static/media/gis.png": "/KyrillosSamer/myPortfolio.git/static/media/gis.c838acdcc716e6b00dc3.png",
+    "static/media/base.png": "/KyrillosSamer/myPortfolio.git/static/media/base.2ea6502bb6143b2d10c9.png",
+    "static/media/lo7a.png": "/KyrillosSamer/myPortfolio.git/static/media/lo7a.19c357ac423ee9270d72.png",
+    "static/media/madrid.png": "/KyrillosSamer/myPortfolio.git/static/media/madrid.36ac4d7d63da2b606831.png",
+    "static/media/film.png": "/KyrillosSamer/myPortfolio.git/static/media/film.e58758be39032e49ad76.png",
+    "static/media/games.png": "/KyrillosSamer/myPortfolio.git/static/media/games.8ebc0011e7d9017b2401.png",
+    "static/media/login.png": "/KyrillosSamer/myPortfolio.git/static/media/login.e9435bc07307a24309d6.png",
+    "static/media/shoesApp.png": "/KyrillosSamer/myPortfolio.git/static/media/shoesApp.97157e786aec3397a230.png",
+    "static/media/kkk.jpg": "/KyrillosSamer/myPortfolio.git/static/media/kkk.1b047e18cafa542dbb50.jpg",
+    "static/media/shopsy.png": "/KyrillosSamer/myPortfolio.git/static/media/shopsy.74e48258c1d5cb690afd.png",
+    "static/media/k.jpg": "/KyrillosSamer/myPortfolio.git/static/media/k.d1dc0d5d3fabfcbd1b0a.jpg",
+    "static/media/por.png": "/KyrillosSamer/myPortfolio.git/static/media/por.48cd142b9bdf8e403297.png",
+    "static/media/crud.png": "/KyrillosSamer/myPortfolio.git/static/media/crud.7bbf2ff57cafb96e64a2.png",
+    "index.html": "/KyrillosSamer/myPortfolio.git/index.html",
+    "main.27e76d64.css.map": "/KyrillosSamer/myPortfolio.git/static/css/main.27e76d64.css.map",
+    "main.d8457e4a.js.map": "/KyrillosSamer/myPortfolio.git/static/js/main.d8457e4a.js.map",
+    "453.0e915986.chunk.js.map": "/KyrillosSamer/myPortfolio.git/static/js/453.0e915986.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27e76d64.css",
+    "static/js/main.d8457e4a.js"
+  ]
+}
