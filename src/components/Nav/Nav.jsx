@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { BiHomeAlt, BiUser } from "react-icons/bi";
 import { BsClipboardData, BsBriefcase, BsChatSquare } from "react-icons/bs";
 import { Link } from 'react-scroll';
 
 const Nav = () => {
+  const [enableSpy, setEnableSpy] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setEnableSpy(true);
+    }, 100); 
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <nav className='fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50'>
       <div className="container mx-auto">
@@ -16,9 +25,11 @@ const Nav = () => {
               to="Home"
               activeClass="active"
               smooth={true}
-              offset={-200}
+              offset={-50}
               spy={true}
-              duration={500}
+              duration={800}
+              delay={0}
+              isDynamic={true}
               className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center 
               rounded-full transition duration-300 relative hover:bg-gradient-to-r from-[#406aff] via-[#3bace2] to-[#b936ee]'>
               <BiHomeAlt />
@@ -35,8 +46,11 @@ const Nav = () => {
               to="About"
               activeClass="active"
               smooth={true}
-              spy={true}
-              duration={500}
+              offset={-50}
+              spy={enableSpy} // يتفعّل فقط بعد أول تحميل
+              duration={800}
+              delay={0}
+              isDynamic={true}
               className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center 
               rounded-full transition duration-300 relative hover:bg-gradient-to-r from-[#406aff] via-[#3bace2] to-[#b936ee]'>
               <BiUser />
@@ -53,8 +67,11 @@ const Nav = () => {
               to="Services"
               activeClass="active"
               smooth={true}
-              spy={true}
-              duration={500}
+              offset={-50}
+              spy={enableSpy}
+              duration={800}
+              delay={0}
+              isDynamic={true}
               className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center 
               rounded-full transition duration-300 relative hover:bg-gradient-to-r from-[#406aff] via-[#3bace2] to-[#b936ee]'>
               <BsClipboardData />
@@ -71,8 +88,11 @@ const Nav = () => {
               to="Work"
               activeClass="active"
               smooth={true}
-              spy={true}
-              duration={500}
+              offset={-50}
+              spy={enableSpy}
+              duration={800}
+              delay={0}
+              isDynamic={true}
               className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center 
               rounded-full transition duration-300 relative hover:bg-gradient-to-r from-[#406aff] via-[#3bace2] to-[#b936ee]'>
               <BsBriefcase />
@@ -89,8 +109,11 @@ const Nav = () => {
               to="Contact"
               activeClass="active"
               smooth={true}
-              spy={true}
-              duration={500}
+              offset={-50}
+              spy={enableSpy}
+              duration={800}
+              delay={0}
+              isDynamic={true}
               className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center 
               rounded-full transition duration-300 relative hover:bg-gradient-to-r from-[#406aff] via-[#3bace2] to-[#b936ee]'>
               <BsChatSquare />
