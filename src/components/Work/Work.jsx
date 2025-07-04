@@ -121,7 +121,7 @@ const Work = () => {
   }, []);
 
   return (
-    <section id='Work' className='py-16 px-5'>
+    <section id='Work' className='py-16 px-5 mt-[26%]'>
       <div className='container mx-auto'>
         <h2 data-aos="fade-up" className='text-gradient text_p text-5xl font-bold text-center mb-10'>
           My Work

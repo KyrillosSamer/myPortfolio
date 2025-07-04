@@ -28,7 +28,7 @@ const About = () => {
   return (
     <section id="About" className="section pt-24 xl:pt-12" ref={ref}>
       <div className="container mx-auto">
-        <div className="flex flex-col items-center gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 px-4 sm:px-8">
+        <div className="flex flex-col items-center gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 px-4 sm:px-8 mb-40">
 
           {/* Image */}
           <div data-aos="fade-left" className="hidden sm:block lg:w-1/3 xl:w-1/3">

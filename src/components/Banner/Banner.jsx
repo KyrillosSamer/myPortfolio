@@ -25,11 +25,11 @@ const Banner = () => {
             viewport={{ once: false, amount: 0.5 }}
             className="text-center md:text-left"
           >
-            <h1 className="text-4xl sm:text-3xl lg:text-5xl xl:text-6xl font-bold mt-10">
+            <h1 className="text-4xl sm:text-3xl lg:text-5xl xl:text-6xl font-bold mt-[26%]">
               Kyrillos <span className="text-white">Samer</span>
             </h1>
 
-            <div className="mt-4 text-[22px] sm:text-[25px] lg:text-[30px] xl:text-[30px] font-secondary font-semibold uppercase">
+            <div className="mt-4 text-[22px] sm:text-[32px] lg:text-[30px] xl:text-[30px] font-secondary font-semibold uppercase">
               <span className="text-lg sm:text-sm lg:text-xl xl:text-xl font-medium mr-2">I am a </span>
               <TypeAnimation
   sequence={['Front-End Developer', 2000, 'GIS Solutions Developer', 2000]}
@@ -45,7 +45,7 @@ const Banner = () => {
   initial="hidden"
   whileInView="show"
   viewport={{ once: false, amount: 0.5 }}
-  className="text-center md:text-left text-gray-300 text-sm sm:text-[14px] md:text-[13px] lg:text-[15px] xl:text-[16px] leading-relaxed mt-4 xl:max-w-[75%] w-full"
+className="text-center md:text-left text-gray-300 text-[16px] sm:text-[18px] md:text-[20px] lg:text-[21px] xl:text-[22px]"
 >
   🚀 I’m a <strong className="text_p">results-driven Front-End Developer</strong> skilled in <strong>React.js</strong>, <strong>Next.js</strong>, and modern UI frameworks like <strong>Tailwind CSS</strong> and <strong>Bootstrap</strong>. I build performant, responsive, and accessible apps with clean, scalable code.
   <br /><br />
