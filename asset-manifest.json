@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.0e4538e2.css",
-    "main.js": "/myPortfolio/static/js/main.64281467.js",
+    "main.css": "/myPortfolio/static/css/main.87a28aae.css",
+    "main.js": "/myPortfolio/static/js/main.f35e60d2.js",
     "static/js/453.0e915986.chunk.js": "/myPortfolio/static/js/453.0e915986.chunk.js",
     "static/media/food.png": "/myPortfolio/static/media/food.8d0de2457d7fd268beba.png",
     "static/media/gis.png": "/myPortfolio/static/media/gis.c838acdcc716e6b00dc3.png",
     "static/media/base.png": "/myPortfolio/static/media/base.2ea6502bb6143b2d10c9.png",
-    "static/media/lo7a.png": "/myPortfolio/static/media/lo7a.19c357ac423ee9270d72.png",
+    "static/media/lo7a.png": "/myPortfolio/static/media/lo7a.fdb58c58151f29ad8174.png",
     "static/media/madrid.png": "/myPortfolio/static/media/madrid.36ac4d7d63da2b606831.png",
     "static/media/film.png": "/myPortfolio/static/media/film.e58758be39032e49ad76.png",
     "static/media/games.png": "/myPortfolio/static/media/games.8ebc0011e7d9017b2401.png",
@@ -16,14 +16,15 @@
     "static/media/shopsy.png": "/myPortfolio/static/media/shopsy.74e48258c1d5cb690afd.png",
     "static/media/k.jpg": "/myPortfolio/static/media/k.d1dc0d5d3fabfcbd1b0a.jpg",
     "static/media/por.png": "/myPortfolio/static/media/por.48cd142b9bdf8e403297.png",
+    "static/media/Twasul.png": "/myPortfolio/static/media/Twasul.81f3b9419a349c8de2af.png",
     "static/media/crud.png": "/myPortfolio/static/media/crud.7bbf2ff57cafb96e64a2.png",
     "index.html": "/myPortfolio/index.html",
-    "main.0e4538e2.css.map": "/myPortfolio/static/css/main.0e4538e2.css.map",
-    "main.64281467.js.map": "/myPortfolio/static/js/main.64281467.js.map",
+    "main.87a28aae.css.map": "/myPortfolio/static/css/main.87a28aae.css.map",
+    "main.f35e60d2.js.map": "/myPortfolio/static/js/main.f35e60d2.js.map",
     "453.0e915986.chunk.js.map": "/myPortfolio/static/js/453.0e915986.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e4538e2.css",
-    "static/js/main.64281467.js"
+    "static/css/main.87a28aae.css",
+    "static/js/main.f35e60d2.js"
   ]
 }
