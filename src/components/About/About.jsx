@@ -26,9 +26,9 @@ const About = () => {
   }, []);
 
   return (
-    <section id="About" className="section pt-24 xl:pt-12" ref={ref}>
+    <section id="About" className="section pt-20  sm:mt-10 xl:pt-12" ref={ref}>
       <div className="container mx-auto">
-        <div className="flex flex-col items-center gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 px-4 sm:px-8 mb-40">
+        <div className="flex flex-col items-center gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 px-4 sm:px-8  mb-40">
 
           {/* Image */}
           <div data-aos="fade-left" className="hidden sm:block lg:w-1/3 xl:w-1/3">
@@ -41,7 +41,7 @@ const About = () => {
 
           {/* Text Content */}
           <div data-aos="fade-right" className="w-full md:w-2/3 text-center md:text-left">
-            <h2 className="text-4xl sm:text-3xl md:text-5xl font-bold text_p">About Me</h2>
+            <h2 className="text-4xl sm:text-3xl md:text-5xl font-bold text_p mt-[10%] ">About Me</h2>
 
             <p className="text-xs sm:text-sm md:text-lg text-gray-300 mt-4 leading-snug sm:leading-relaxed">
               👋 <strong>Hello! I'm Kyrillos Samer Mousa,</strong> a <strong className="text_p">Front-End Developer</strong> specializing in <strong>React.js</strong> and <strong>GIS Solutions</strong>.

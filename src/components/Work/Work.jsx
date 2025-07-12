@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-//Import Images
+// Import Images
+import freshCartImg from '../../assets/ecommerse.png';
 import shoesAppImg from '../../assets/shoesApp.png';
 import shopsyImg from '../../assets/shopsy.png';
 import foodImg from '../../assets/food.png';
@@ -19,6 +20,13 @@ import lo7aImg from '../../assets/lo7a.png';
 
 const projects = [
   {
+    image: freshCartImg,
+    title: "FreshCart",
+    description: "React e-commerce app using Route Misr API, with user auth, cart .",
+    link: "https://dashing-kheer-026c5d.netlify.app/",
+    repo: "https://github.com/KyrillosSamer/Full-stack-E-Commerce"
+  },
+  {
     image: shopsyImg,
     title: "Shopsy",
     description: "An online store for fashion lovers.",
@@ -30,6 +38,7 @@ const projects = [
     title: "Tawasul",
     description: "Social media app built with Next.js and Redux Toolkit.",
     link: null,
+    link: "https://twasul.netlify.app/",
     repo: "https://github.com/KyrillosSamer/Tawasul"
   },
   {
@@ -121,7 +130,7 @@ const Work = () => {
   }, []);
 
   return (
-    <section id='Work' className='py-16 px-5 mt-[26%]'>
+    <section id='Work' className='py-16 px-5 mt-[15%] '>
       <div className='container mx-auto'>
         <h2 data-aos="fade-up" className='text-gradient text_p text-5xl font-bold text-center mb-10'>
           My Work

@@ -54,7 +54,7 @@ const Services = () => {
         <section id="Services" className="py-16">
             <div className="container mx-auto px-4">
                 {/* Title */}
-                <h2 data-aos="fade-up" className="text-center text-5xl font-bold mb-6 text_p">
+                <h2 data-aos="fade-up" className="text-center text-5xl font-bold  text_p">
                     What I Do.
                 </h2>
 

@@ -25,7 +25,7 @@ const Nav = () => {
               to="Home"
               activeClass="active"
               smooth={true}
-              offset={-50}
+              offset={-400}
               spy={true}
               duration={800}
               delay={0}
@@ -46,8 +46,8 @@ const Nav = () => {
               to="About"
               activeClass="active"
               smooth={true}
-              offset={-50}
-              spy={enableSpy} // يتفعّل فقط بعد أول تحميل
+              offset={10}
+              spy={enableSpy} 
               duration={800}
               delay={0}
               isDynamic={true}
