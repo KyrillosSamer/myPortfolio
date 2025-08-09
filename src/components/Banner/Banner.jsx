@@ -10,8 +10,6 @@ import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 // Variants
 import { fadeIn } from '../../variants';
-import CV from "../../assets/Kyrillos_Samer.pdf";
-
 
 const Banner = () => {
   return (
@@ -63,50 +61,28 @@ const Banner = () => {
 
 {/* 
             {/* Buttons */}
-          <div className="hidden sm:hidden md:flex items-center gap-4 mt-3">
-  <a 
-    href="#"
-    className='text-gradient text_p btn-link text-xl sm:text-lg lg:text-2xl xl:text-3xl'
-  >
-    Contact me
-  </a>
-
-</div>
-
-
+            <div className="hidden sm:hidden md:flex items-center gap-4 mt-3">
+              <a href="#" className='text-gradient text_p btn-link text-xl sm:text-lg lg:text-2xl xl:text-3xl'>
+                Contact me
+              </a>
+            </div> 
 
 
             {/* Social Media Icons */}
-            {/* Social Media Icons */}
-<div className="flex justify-center md:justify-start gap-4 mt-6">
-  <a href="https://github.com/KyrillosSamer" target="_blank" rel="noopener noreferrer">
-    <FaGithub size={35} className="text-gray-700 hover:text-white transition" />
-  </a>
-
-  <a href="https://www.linkedin.com/in/kyrillos-samer-82b862263/" target="_blank" rel="noopener noreferrer">
-    <FaLinkedin size={35} className="text-blue-600 hover:text-blue-800 transition" />
-  </a>
-
-  <a href="https://wa.me/201275389201" target="_blank" rel="noopener noreferrer">
-    <FaWhatsapp size={35} className="text-green-500 hover:text-green-700 transition" />
-  </a>
-
-  <a href="mailto:kyrillossamer770@gmail.com" target="_blank" rel="noopener noreferrer">
-    <BiLogoGmail size={35} className="text-red-500 hover:text-red-700 transition" />
-  </a>
-
-  {/* CV Button */}
-  <a
-    href={CV}
-    download="Kyrillos_Samer_CV.pdf"
-    className="text-gradient text_p flex items-center justify-center border-2 rounded-full w-[45px] h-[45px] text-sm font-bold hover:opacity-80 transition"
-    style={{ borderColor: 'currentColor' }}
-    title="Download CV"
-  >
-    CV
-  </a>
-</div>
-
+            <div className="flex justify-center md:justify-start gap-4 mt-6">
+              <a href="https://github.com/KyrillosSamer" target="_blank" rel="noopener noreferrer">
+                <FaGithub size={35} className="text-gray-700 hover:text-white transition" />
+              </a>
+              <a href="https://www.linkedin.com/in/kyrillos-samer-82b862263/" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin size={35} className="text-blue-600 hover:text-blue-800 transition" />
+              </a>
+              <a href="https://wa.me/201275389201" target="_blank" rel="noopener noreferrer">
+                <FaWhatsapp size={35} className="text-green-500 hover:text-green-700 transition" />
+              </a>
+              <a href="mailto:kyrillossamer770@gmail.com" target="_blank" rel="noopener noreferrer">
+                <BiLogoGmail size={35} className="text-red-500 hover:text-red-700 transition" />
+              </a>
+            </div>
           </motion.div>
 
           {/* Image Section */}
