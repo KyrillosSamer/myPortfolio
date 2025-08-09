@@ -22,8 +22,8 @@ const projects = [
   {
     image: freshCartImg,
     title: "FreshCart",
-    description: "React e-commerce app using Route Misr API, with user auth, cart .",
-    link: "https://dashing-kheer-026c5d.netlify.app/",
+    description: "React e-commerce app using  API, with user auth, cart .",
+    link: "https://kerostore.netlify.app/",
     repo: "https://github.com/KyrillosSamer/Full-stack-E-Commerce"
   },
   {
@@ -49,11 +49,18 @@ const projects = [
     repo: "https://github.com/KyrillosSamer/FoodRecipes"
   },
   {
-    image: filmImg,
-    title: "Movies World",
-    description: "A platform to search for movies.",
-    link: "https://kyrillossamer.github.io/moviesWorld/",
-    repo: "https://github.com/KyrillosSamer/moviesWorld"
+    image: shoesAppImg,
+    title: "Shoes App",
+    description: "A sleek e-commerce app for stylish shoes.",
+    link: "https://kyrillossamer.github.io/ShoesApp/",
+    repo: "https://github.com/KyrillosSamer/ShoesApp"
+  },
+  {
+    image: gisImg,
+    title: "GIS Tools",
+    description: "Geospatial analysis tools & data visualization.",
+    link: "https://gistools.netlify.app/",
+    repo: "https://github.com/KyrillosSamer/GisTools"
   },
   {
     image: porImg,
@@ -70,18 +77,11 @@ const projects = [
     repo: "https://github.com/KyrillosSamer/logIn-Register"
   },
   {
-    image: baseImg,
-    title: "WMS Layers Viewer",
-    description: "An application displaying WMS layers on a map.",
-    link: "https://kyrillossamer.github.io/WmsLayers/",
-    repo: "https://github.com/KyrillosSamer/WmsLayers"
-  },
-  {
-    image: gisImg,
-    title: "GIS Tools",
-    description: "Geospatial analysis tools & data visualization.",
-    link: "https://kyrillossamer.github.io/GisTools/",
-    repo: "https://github.com/KyrillosSamer/GisTools"
+    image: filmImg,
+    title: "Movies World",
+    description: "A platform to search for movies.",
+    link: "https://kyrillossamer.github.io/moviesWorld/",
+    repo: "https://github.com/KyrillosSamer/moviesWorld"
   },
   {
     image: crudImg,
@@ -90,13 +90,13 @@ const projects = [
     link: "https://kyrillossamer.github.io/CRUD/",
     repo: "https://github.com/KyrillosSamer/CRUD"
   },
-  {
-    image: shoesAppImg,
-    title: "Shoes App",
-    description: "A sleek e-commerce app for stylish shoes.",
-    link: "https://kyrillossamer.github.io/ShoesApp/",
-    repo: "https://github.com/KyrillosSamer/ShoesApp"
-  },
+    {
+      image: baseImg,
+      title: "WMS Layers Viewer",
+      description: "An application displaying WMS layers on a map.",
+      link: "https://kyrillossamer.github.io/WmsLayers/",
+      repo: "https://github.com/KyrillosSamer/WmsLayers"
+    },
   {
     image: gamesImg,
     title: "Trendy Games",
@@ -130,7 +130,7 @@ const Work = () => {
   }, []);
 
   return (
-    <section id='Work' className='py-16 px-5 mt-[15%] '>
+    <section id='Work' className='py-16 px-5 mt-[10%] '>
       <div className='container mx-auto'>
         <h2 data-aos="fade-up" className='text-gradient text_p text-5xl font-bold text-center mb-10'>
           My Work
@@ -146,14 +146,14 @@ const Work = () => {
             >
               <img src={project.image} alt={project.title} className='w-full h-auto' />
               <div className='absolute inset-0 bg-black/80 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-6 text-white text-center'>
-                <h3 className='mt-2 text-2xl font-bold text-accent'>{project.title}</h3>
-                <p className='mt-2 text-lg'>{project.description}</p>
+                <h3 className='mt-1 text-2xl font-bold text-accent'>{project.title}</h3>
+                <p className='mt-1 text-lg'>{project.description}</p>
                 {project.link && (
                   <a href={project.link} target='_blank' rel='noopener noreferrer' className='btn btn-lg mt-5 text-xl w-[60%]'>
                     View Project
                   </a>
                 )}
-                <a href={project.repo} target='_blank' rel='noopener noreferrer' className='mt-2 text-gradient text_p btn-link text-xl underline'>
+                <a href={project.repo} target='_blank' rel='noopener noreferrer' className='mt-1 text-gradient text_p btn-link text-xl underline'>
                   GitHub Repo
                 </a>
               </div>

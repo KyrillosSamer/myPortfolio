@@ -10,6 +10,8 @@ import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 // Variants
 import { fadeIn } from '../../variants';
+import CV from "../../assets/Kyrillos_Samer.pdf";
+
 
 const Banner = () => {
   return (
@@ -61,14 +63,28 @@ const Banner = () => {
 
 {/* 
             {/* Buttons */}
-            <div className="hidden sm:hidden md:flex items-center gap-4 mt-3">
-              {/* <button className='btn btn-lg sm:btn-md lg:btn-lg xl:btn-xl text-xl sm:text-lg lg:text-2xl xl:text-3xl'>
-                Contact me
-              </button> */}
-              <a href="#" className='text-gradient text_p btn-link text-xl sm:text-lg lg:text-2xl xl:text-3xl'>
-                Contact me
-              </a>
-            </div> 
+          <div className="hidden sm:hidden md:flex items-center gap-4 mt-3">
+  <a 
+    href="#"
+    className='text-gradient text_p btn-link text-xl sm:text-lg lg:text-2xl xl:text-3xl'
+  >
+    Contact me
+  </a>
+
+ <a
+  href={CV}
+  download="Kyrillos_Samer_CV.pdf"
+  className='text-gradient text_p btn-link text-xl sm:text-lg lg:text-2xl xl:text-xl flex items-center gap-8 border-2 rounded-full px-5 py-2'
+  style={{ borderColor: 'currentColor' }}
+>
+  <span>CV</span>
+</a>
+
+
+
+</div>
+
+
 
 
             {/* Social Media Icons */}
@@ -85,6 +101,7 @@ const Banner = () => {
               <a href="mailto:kyrillossamer770@gmail.com" target="_blank" rel="noopener noreferrer">
                 <BiLogoGmail size={35} className="text-red-500 hover:text-red-700 transition" />
               </a>
+     
             </div>
           </motion.div>
 
